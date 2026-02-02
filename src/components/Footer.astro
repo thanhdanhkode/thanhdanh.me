@@ -1,0 +1,12 @@
+---
+import { SITE_TITLE } from "../constants";
+
+const today = new Date();
+---
+
+<footer class="flex w-full py-4">
+  <div class="mx-auto flex">
+    &copy; {today.getFullYear()}
+    {SITE_TITLE}. All rights reserved.
+  </div>
+</footer>

@@ -1,0 +1,15 @@
+---
+import { Cog } from "@lucide/astro";
+import BlogIndexLayout from "../../layouts/Blog.astro";
+---
+
+<BlogIndexLayout>
+  <div
+    class="mx-auto mt-4 flex h-[calc(100vh-var(--header-height)-6rem)] w-full max-w-7xl items-center justify-center gap-4"
+  >
+    <div class="flex-center animate-spin">
+      <Cog color="#fafafa" class="size-8" />
+    </div>
+    <div class="flex-center text-lg font-medium">Coming Soon...</div>
+  </div>
+</BlogIndexLayout>

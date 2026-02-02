@@ -1,0 +1,33 @@
+---
+import IndexLayout from "../layouts/Index.astro";
+---
+
+<IndexLayout>
+  <div
+    class="mx-auto mt-4 flex h-[calc(100vh-var(--header-height)-6rem)] w-full max-w-7xl flex-col items-center justify-center"
+  >
+    <div
+      class="flex w-full items-center justify-between px-12 max-sm:flex-col max-sm:gap-12"
+    >
+      <div class="max-sm:order-2 sm:w-3/4">
+        <p class="text-muted-foreground text-sm">Hi There,</p>
+        <h1
+          class="mt-2 text-2xl font-extrabold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl"
+        >
+          I am <span class="text-foreground">Thành Danh</span>
+        </h1>
+        <p class="text-muted-foreground mt-4 text-base md:text-lg">
+          I am on my way to becoming an Embedded Engineer.
+        </p>
+      </div>
+
+      <div
+        class="flex justify-center max-sm:order-1 max-sm:w-3/4 max-sm:max-w-96 sm:w-1/4"
+      >
+        <div class="relative z-10 aspect-square w-full">
+          <img src="brand-bg.png" alt="" class="object-cover" />
+        </div>
+      </div>
+    </div>
+  </div>
+</IndexLayout>
